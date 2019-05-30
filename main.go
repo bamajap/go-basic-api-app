@@ -10,10 +10,10 @@ import (
 	"net/http"
 
 	// Run the app in "test" mode.
-	db "go-basic-api-app/dummydb"
+	db "github.com/bamajap/go-basic-api-app/dummydb"
 
 	// Run the app with DynamoDB.
-	// db "go-basic-api-app/dynamodb"
+	// db "github.com/bamajap/go-basic-api-app/dynamodb"
 	"strconv"
 
 	"github.com/gorilla/mux"
