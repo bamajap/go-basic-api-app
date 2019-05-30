@@ -10,10 +10,10 @@ import (
 	"net/http"
 
 	// Run the app in "test" mode.
-	// db "shipt-app/dummydb"
+	db "go-basic-api-app/dummydb"
 
 	// Run the app with DynamoDB.
-	db "shipt-app/dynamodb"
+	// db "go-basic-api-app/dynamodb"
 	"strconv"
 
 	"github.com/gorilla/mux"
